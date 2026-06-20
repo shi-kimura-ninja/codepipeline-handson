@@ -3,7 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - aws deploy push --application-name sample-app --s3-location s3://codepipeline-2026-0620/artifact.zip --source src
+      
 artifacts:
   files:
     - '**/*'
