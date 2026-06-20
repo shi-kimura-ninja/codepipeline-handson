@@ -3,9 +3,8 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "build complete"
+    - echo "build complete"
       
 artifacts:
   files:
     - '**/*'
-  base-directory: src
